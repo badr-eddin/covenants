@@ -6,9 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run vercel-build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run vercel-build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
